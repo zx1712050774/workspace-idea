@@ -33,6 +33,7 @@ public class TreeController {
     @RequestMapping("findTree")
     @ResponseBody
     public List<TreeBean> findTree(){
+        System.out.println(1111);
         List<TreeBean> list=treeService.findTree();
         return list;
     }
