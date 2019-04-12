@@ -34,6 +34,7 @@ public class TreeController {
     @ResponseBody
     public List<TreeBean> findTree(){
         System.out.println(1111);
+        System.out.println(2222);
         List<TreeBean> list=treeService.findTree();
         return list;
     }
